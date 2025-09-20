@@ -216,7 +216,7 @@ export class Home1 extends Component {
       setSession("csrid", rdata[1], 1);
       localStorage.removeItem("loginAttempts");
       localStorage.removeItem("blockUntil");
-      window.location.replace("/propertymanagementsystem/dashboard");
+      window.location.replace("/dashboard");
     } else {
       let attempts = parseInt(localStorage.getItem("loginAttempts") || "0") + 1;
       localStorage.setItem("loginAttempts", attempts);
@@ -309,7 +309,7 @@ export class Home1 extends Component {
               </li>
 
               <li>
-                <Link to="/propertymanagementsystem/dashboard">
+                <Link to="/dashboard">
                   {t("Dashboard")}
                 </Link>
               </li>

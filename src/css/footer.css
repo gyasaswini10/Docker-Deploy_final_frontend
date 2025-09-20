@@ -1,0 +1,95 @@
+/* General Styling */
+body {
+  background-color: #1a1a1a;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Apply flexbox to the body */
+  flex-direction: column; /* Allow stacking of content */
+  min-height: 100vh; /* Ensure the body takes up full height */
+}
+
+main {
+  flex-grow: 1; /* Allow main content to grow and fill available space */
+}
+
+/* Footer Styling */
+.footer {
+  background-color: black;
+  color: #ddd;
+  text-align: center;
+  border-top: 2px solid white;
+  padding: 40px 20px;
+  margin-top: auto; /* Push the footer to the bottom */
+  margin-bottom: 0;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.footer-info,
+.footer-links,
+.footer-stats {
+  flex: 1;
+}
+
+.footer-info p,
+.footer-links a,
+.footer-stats p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 5px 0;
+}
+
+.footer-links ul li a {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-links ul li a:hover {
+  color: white;
+}
+
+.footer-stats {
+  text-align: left;
+}
+
+.stat h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: white;
+}
+
+.stat p {
+  font-size: 22px;
+  font-weight: bold;
+  color: #aaa;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-info,
+  .footer-links,
+  .footer-stats {
+    margin-bottom: 20px;
+  }
+}

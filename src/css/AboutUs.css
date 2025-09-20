@@ -1,0 +1,83 @@
+.about-us-container {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: -50px;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom:40px;
+  color:black;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  width: 20%;
+  height: 30vh;
+  padding: 3px;
+  color: black;
+  background-color: #95B8D1;/* Soft Green */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(169, 255, 169, 0.5); /* Green shadow */
+}
+
+.team-box h3 {
+  font-size: 1rem;
+  margin-bottom: 13px;
+}
+ 
+ 
+.social-links a{
+  color: black;
+  background-color: none;
+}
+@media (max-width: 768px) {
+  .team-member {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.team-member{
+  display: flex;
+  
+flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:90px  auto;
+
+  height: fit-content;
+  width: 50vh;
+  width: 60vh;
+  height: 30vh;
+  padding: 40vh auto;
+}
+.team-members{
+  overflow: hidden;
+ 
+}
+.team-member{
+  overflow: hidden;
+}
+#social1 a{
+ color: black;
+ border-radius: 3px;
+}
+#social1 a:hover{
+ background-color: black;
+ color: white;
+
+}

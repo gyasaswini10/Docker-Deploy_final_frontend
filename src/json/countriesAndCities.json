@@ -1,0 +1,125 @@
+{
+     "countries": [
+       {
+         "name": "USA",
+         "cities": ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix"]
+       },
+       {
+         "name": "Canada",
+         "cities": ["Toronto", "Vancouver", "Montreal", "Ottawa", "Calgary"]
+       },
+       {
+         "name": "India",
+         "cities": ["Delhi", "Mumbai", "Bangalore", "Chennai", "Kolkata","Pune"]
+       },
+       {
+         "name": "United Kingdom",
+         "cities": ["London", "Manchester", "Birmingham", "Liverpool", "Glasgow"]
+       },
+       {
+         "name": "Australia",
+         "cities": ["Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide"]
+       },
+       {
+         "name": "Germany",
+         "cities": ["Berlin", "Munich", "Hamburg", "Cologne", "Frankfurt"]
+       },
+       {
+         "name": "France",
+         "cities": ["Paris", "Marseille", "Lyon", "Toulouse", "Nice"]
+       },
+       {
+         "name": "Italy",
+         "cities": ["Rome", "Milan", "Florence", "Venice", "Naples"]
+       },
+       {
+         "name": "Japan",
+         "cities": ["Tokyo", "Osaka", "Kyoto", "Yokohama", "Sapporo"]
+       },
+       {
+         "name": "Brazil",
+         "cities": ["São Paulo", "Rio de Janeiro", "Salvador", "Brasília", "Fortaleza"]
+       },
+       {
+         "name": "Mexico",
+         "cities": ["Mexico City", "Guadalajara", "Monterrey", "Cancun", "Puebla"]
+       },
+       {
+         "name": "Russia",
+         "cities": ["Moscow", "Saint Petersburg", "Novosibirsk", "Yekaterinburg", "Nizhny Novgorod"]
+       },
+       {
+         "name": "South Korea",
+         "cities": ["Seoul", "Busan", "Incheon", "Daegu", "Daejeon"]
+       },
+       {
+         "name": "China",
+         "cities": ["Beijing", "Shanghai", "Shenzhen", "Guangzhou", "Chengdu"]
+       },
+       {
+         "name": "South Africa",
+         "cities": ["Cape Town", "Johannesburg", "Durban", "Pretoria", "Port Elizabeth"]
+       },
+       {
+         "name": "Argentina",
+         "cities": ["Buenos Aires", "Cordoba", "Rosario", "Mendoza", "La Plata"]
+       },
+       {
+         "name": "Spain",
+         "cities": ["Madrid", "Barcelona", "Valencia", "Seville", "Bilbao"]
+       },
+       {
+         "name": "Egypt",
+         "cities": ["Cairo", "Alexandria", "Giza", "Sharm El Sheikh", "Luxor"]
+       },
+       {
+         "name": "Saudi Arabia",
+         "cities": ["Riyadh", "Jeddah", "Mecca", "Medina", "Dammam"]
+       },
+       {
+         "name": "Turkey",
+         "cities": ["Istanbul", "Ankara", "Izmir", "Antalya", "Bursa"]
+       },
+       {
+         "name": "Indonesia",
+         "cities": ["Jakarta", "Surabaya", "Bandung", "Medan", "Yogyakarta"]
+       },
+       {
+         "name": "Thailand",
+         "cities": ["Bangkok", "Chiang Mai", "Phuket", "Pattaya", "Ayutthaya"]
+       },
+       {
+         "name": "Nigeria",
+         "cities": ["Lagos", "Abuja", "Kano", "Ibadan", "Port Harcourt"]
+       },
+       {
+         "name": "Pakistan",
+         "cities": ["Karachi", "Lahore", "Islamabad", "Rawalpindi", "Faisalabad"]
+       },
+       {
+         "name": "Vietnam",
+         "cities": ["Hanoi", "Ho Chi Minh City", "Da Nang", "Hai Phong", "Can Tho"]
+       },
+       {
+         "name": "Malaysia",
+         "cities": ["Kuala Lumpur", "George Town", "Johor Bahru", "Kota Kinabalu", "Melaka"]
+       },
+       {
+         "name": "Philippines",
+         "cities": ["Manila", "Quezon City", "Cebu City", "Davao City", "Zamboanga City"]
+       },
+       {
+         "name": "Nigeria",
+         "cities": ["Lagos", "Abuja", "Kano", "Ibadan", "Port Harcourt"]
+       },
+       {
+         "name": "Chile",
+         "cities": ["Santiago", "Valparaíso", "Concepción", "La Serena", "Antofagasta"]
+       },
+       {
+         "name": "Egypt",
+         "cities": ["Cairo", "Alexandria", "Giza", "Sharm El Sheikh", "Luxor"]
+       }
+     ]
+   }
+   

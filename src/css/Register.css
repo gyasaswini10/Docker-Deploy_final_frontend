@@ -1,0 +1,154 @@
+.login-form {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px #83bde7;
+  padding: 40px 50px;
+  width: 100%;
+  max-width: 500px;
+  color: black;
+  text-align: center;
+  animation: fadeInUp 0.8s ease-out;
+  margin: auto;
+  margin-top: 2rem;
+
+  height: 73rem;
+  padding: 1rem;
+  border: 2px solid black;
+
+}
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #e0e0e0;
+  text-transform: uppercase;
+}
+.input-field {
+  margin-bottom: 20px;
+  text-align: left;
+}
+.input-field label {
+  font-size: 14px;
+  color: #e0e0e0;
+  display: block;
+  margin-left: 2rem;
+  color: black;
+}
+.input-field input,.input-field select {
+  width: 80%;
+  padding: 15px 18px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #e0e0e0;
+  background-color: #1e1e1e;
+  transition: all 0.3s ease;
+  height: 1rem;
+  margin-left: 2rem;
+    color: black;
+  background-color: white;
+  
+}
+
+.input-field input:focus {
+ 
+  outline: none;
+  box-shadow: 0 0 8px #83bde7;
+  
+}
+
+.password-field {
+  position: relative;
+  
+  
+}
+.eye-icon {
+  position: absolute;
+  top: 73%;
+  right: 40px;
+  
+  transform: translateY(-50%);
+  color: #83bde7;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  z-index: 10;
+    color: black;
+  background-color: white;
+  color: black;
+background-color: white;
+
+  
+}
+.login-button {
+  background-color: #83bde7;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: 2.5rem;
+  width: 90%;
+  margin-top: 1rem;
+  margin-left: 15px;
+  
+
+}
+.login-button:hover {
+  background-color: #83bde7;
+  
+}
+.signup-link {
+  margin-top: 1rem;
+  font-size: 14px;
+  
+}
+.signup-link a {
+  text-decoration: none;
+  color: #83bde7;
+  font-weight: 600;
+}
+.signup-link a:hover {
+  text-decoration: underline;
+}
+.accept-terms {
+  margin-left: -30rem;
+  font-size: 14px;
+}
+.select-dropdown,
+#country,
+#city {
+  width: 88%;
+  padding: 15px 18px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  font-size: 14px;
+  color: black;
+  background-color: white;
+
+  transition: all 0.3s ease;
+  height: 3rem;
+  margin-left: 2rem;
+}
+
+.select-dropdown:focus {
+  border-color:#83bde7;
+  outline: none;
+}
+
+.select-dropdown option {
+  padding: 8px;
+  font-size: 14px;
+}
+/* Page load animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

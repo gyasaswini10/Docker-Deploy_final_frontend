@@ -1,0 +1,252 @@
+/* General Styling */
+body {
+  background-color: white;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.HomePage1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex: 1;
+  max-width: 600px;
+  color: black;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.text h5 {
+  margin: 0;
+}
+
+.HomePage1 img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.HomePage1 img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Our Achievements Section */
+.Our_Achievements {
+  text-align: center;
+  margin: 60px 20px;
+}
+
+.Our_Achievements h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: black;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Achievements {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.Achievement {
+  background-color: #40e0d0;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 250px;
+  box-shadow: #bbfff8 0px -50px 36px -28px inset;
+  transition: transform 0.5s ease, box-shadow 0.5s ease,
+    background-color 0.3s ease;
+}
+/*
+Turquoise (#40E0D0)    
+ ,  Soft Peach (#FFCC99) 
+ 
+ 
+ ,Soft Beige (#F5F5DC) 
+   ,Mint Green (#98FF98) 
+    ,Soft Blue (#A8D0E6)
+*/
+.Achievement:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: #94fff4 0px -50px 36px -28px inset;
+}
+
+.Achievement h3 {
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.Achievement p {
+  font-size: 1.2rem;
+  color: black;
+}
+
+/* Why Our Company Section */
+.WhyOurCompany {
+  text-align: center;
+  margin: 60px 20px;
+}
+
+.WhyOurCompany h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: black;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.CompanyInfo {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.InfoItem {
+  background-color: #40e0d0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: #bbfff8 0px -50px 36px -28px inset;
+  text-align: center;
+  width: 250px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease,
+    background-color 0.3s ease;
+}
+
+.InfoItem:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: #94fff4 0px -50px 36px -28px inset;
+}
+
+.InfoItem h3 {
+  font-size: 1.2rem;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.InfoItem p {
+  font-size: 1rem;
+  color: black;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-top: 2px solid black;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.footer-info {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-links {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-links h4 {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-links ul li a:hover {
+  color: #005700;
+}
+
+.footer-stats {
+  flex: 1;
+}
+
+.stat {
+  padding: 10px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.stat h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: black;
+}
+
+.stat p {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .HomePage1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .Achievements {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .CompanyInfo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .InfoItem {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-info,
+  .footer-links,
+  .footer-stats {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,47 @@
+.menubar {
+  width: 100%;
+  height: 100%;
+  background: whitesmoke;
+}
+.menubar .menuheader {
+  width: 100%;
+  float: left;
+  font-weight: bold;
+  line-height: 36px;
+  background: 0368A5;
+}
+.menubar .menuheader img,
+.menubar .menulist ul li img {
+  width: 20px;
+  margin: 8px;
+  float: left;
+}
+.menubar .menulist {
+  margin: 2px;
+  float: left;
+  width: calc(100% - 4px);
+  height: calc(100% - 40px);
+  background: white;
+  overflow: auto;
+}
+
+.menubar .menulist ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+.menubar .menulist ul li {
+  width: 100%;
+  line-height: 34px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  /* background: #95B8D1;; */
+  box-shadow: 0 1px 8px #e7e9eb;
+}
+
+.menubar .menulist ul li:hover {
+  cursor: pointer;
+  background: #95b8d1;
+}

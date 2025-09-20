@@ -1,0 +1,40 @@
+.Chat {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 100%;
+  padding: 8px;
+}
+
+.Group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.Group:nth-last-of-type(2) {
+  /* 8px - gap between groups */
+  min-height: calc(100% - 8px);
+}
+
+.Message {
+  width: 90%;
+  padding: 0 16px;
+  border-radius: 3px;
+  font-size: 14px;
+
+  &[data-role="user"] {
+    align-self: flex-end;
+    background: light-dark(rgb(182, 182, 218), #303030);
+  }
+
+  /* Add background color for chatbot's reply */
+  &[data-role="assistant"] {
+    align-self: flex-start;
+    background: light-dark(
+      rgb(185, 239, 239),
+      #444444
+    ); /* Modify colors as needed */
+    color: black; /* Optional: change text color for better contrast */
+  }
+}

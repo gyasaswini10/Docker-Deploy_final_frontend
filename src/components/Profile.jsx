@@ -1,45 +1,13 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React from "react";
 
-function UserProfile() {
-  const [userData, setUserData] = useState(null);
-  const [error, setError] = useState("");
-  const token = localStorage.getItem("auth_token");
-  console.log(token);
-
-  // Fetch user data when component mounts
-  useEffect(() => {
-    if (token) {
-      // Get the full name of the user
-      axios
-        .post("http://localhost:8083/users/getfullname", { csrid: token })
-        .then((response) => {
-          setUserData(response.data);
-        })
-        .catch((err) => {
-          setError("Failed to fetch user data");
-          console.error(err);
-        });
-    } else {
-      setError("No token found. Please sign in.");
-    }
-  }, [token]);
-
-  if (error) {
-    return <div>{error}</div>;
-  }
-
-  if (!userData) {
-    return <div>Loading...</div>;
-  }
-
+function Profile({ fullname }) {
   return (
     <div>
-      <h1>User Profile</h1>
-      <p>Full Name: {userData.fullname}</p>
-      <p>Email: {userData.email}</p>
+      <h1>Profile Component</h1>
+      <p>Email: {fullname}</p>
+      {/* Add more fields if you pass them as props */}
     </div>
   );
 }
 
-export default UserProfile;
+export default Profile;

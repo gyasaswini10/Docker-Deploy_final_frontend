@@ -29,10 +29,12 @@ export default class Dashboard extends Component {
     window.location.replace("/");
   }
   loadComponent(mid) {
+     const { fullname } = this.state; 
     let components = {
       1: <JobPosting />,
       2: <JobSearch />,
-      3: <Profile />,
+    3: <Profile fullname={fullname} />
+    
     };
     this.setState({ activeComponent: components[mid] });
   }

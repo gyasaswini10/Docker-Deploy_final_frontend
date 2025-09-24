@@ -47,10 +47,10 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_kri1f7g", // Replace with your EmailJS Service ID
-        "template_azh7v6r", // Replace with your EmailJS Template ID
+        "service_y20wsvd", // Replace with your EmailJS Service ID
+        "template_l56qob7", // Replace with your EmailJS Template ID
         emailParams,
-        "G1fSQfW9jpolzRZiM" // Replace with your EmailJS Public Key
+        "HqZqvZIOlrAEf2KYZ" // Replace with your EmailJS Public Key
       )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);

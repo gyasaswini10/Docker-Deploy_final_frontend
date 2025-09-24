@@ -129,12 +129,7 @@ export class Home1 extends Component {
       password: signuppassword.value,
     });
 
-    callApi(
-      "POST",
-      "http://localhost:8083/users/signup",
-      data,
-      this.getResponse
-    );
+    callApi("POST", BASEURL + "users/signup", data, this.getResponse);
   }
 
   getResponse(res) {
@@ -156,7 +151,7 @@ export class Home1 extends Component {
       return;
     }
 
-    let url = "http://localhost:8083/users/forgotpassword/" + username.value;
+    let url = BASEURL + "users/forgotpassword/" + username.value;
     callApi("GET", url, "", this.forgotPasswordResponse);
   }
 
@@ -203,7 +198,7 @@ export class Home1 extends Component {
 
     callApi(
       "POST",
-      "http://localhost:8083/users/signin",
+      BASEURL + "users/signin",
       data,
       this.signinResponse.bind(this)
     );
@@ -309,9 +304,7 @@ export class Home1 extends Component {
               </li>
 
               <li>
-                <Link to="/dashboard">
-                  {t("Dashboard")}
-                </Link>
+                <Link to="/dashboard">{t("Dashboard")}</Link>
               </li>
 
               <li>

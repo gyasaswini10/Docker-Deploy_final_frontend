@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "./../css/PropertyManager.css";
 import Footer from "./Footer";
+import { BASEURL } from "./Api";
 
 const PropertyManager = () => {
   const [property, setProperty] = useState({
@@ -24,7 +25,7 @@ const PropertyManager = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:8083/api/properties", property);
+      await axios.post(BASEURL + "api/properties", property);
       alert("Property added successfully!");
     } catch (error) {
       console.error("Error adding property:", error);

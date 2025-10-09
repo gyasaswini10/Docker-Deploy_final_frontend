@@ -9,7 +9,7 @@ const Rentals = () => {
 
   useEffect(() => {
     axios
-      .get(BASEURL + "api/properties")
+      .get(`${BASEURL}api/properties`)
       .then((response) => {
         setProperties(response.data);
       })
@@ -17,6 +17,7 @@ const Rentals = () => {
         console.error("Error fetching properties:", error);
       });
   }, []);
+
 
   return (
     <div>

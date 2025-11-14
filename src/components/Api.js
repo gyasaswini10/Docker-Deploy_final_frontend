@@ -1,4 +1,7 @@
-// CallApi
+// CallApi          msg:
+          // - "✅ Frontend:2300030244     http://localhost:{{ frontend_nodeport }}/property/"
+          // - "✅ Backend: 2300030244    http://localhost:{{ backend_nodeport }}/back1/"
+
 export const BASEURL= "http://localhost:30083/";
 export function callApi(reqmethod, url, data, responseHandler){
   var option;
